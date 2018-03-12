@@ -1,0 +1,15 @@
+import java.io.*;
+class Basicnum
+{
+public static void main(String args[])
+{
+int mvarA;
+Scanner sc=new Scanner(System.in);
+System.out.println("INPUT");
+mvarA=sc.nextInt();
+if(mvarA>=1)
+System.out.println("POSITIVE");
+else
+System.out.println("NEGATIVE");
+}
+}
